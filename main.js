@@ -33,7 +33,7 @@ function kepKiir(lista) {
     const tartalomElemEz = document.querySelectorAll(".article")
     szoveg ="";
     for (let index = 0; index < lista.length; index++) {
-        szoveg+='<div><img src="'+lista[index]+' alt="">';
+        szoveg+='<div><img src="'+lista[index]+'" alt="kaja">';
         szoveg+="</div>";
         
     }
